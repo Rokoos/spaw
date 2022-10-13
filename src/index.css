@@ -1,13 +1,134 @@
+/* Photo by <a href="https://unsplash.com/@roblambertjr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rob Lambert</a> on <a href="https://unsplash.com/s/photos/welding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+  
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 1600px;
+}
+
+.header_text{
+  font-size: 1rem;
+}
+
+@media (min-width: 650px)  {
+  .header_text{
+    font-size: 1.4rem;
+  }
+}
+
+
+  .view {
+    margin-top: 56px;
+    height: 40vh !important;
+    background: url("./img/Filipa\ Saldanha.jpg") center/cover no-repeat;
+    /* Photo by Filipa Saldanha on Unsplash */
+  }
+
+#intro {
+  position: relative;
+  min-height: 400px;
+  background: url("./img/Filipa\ Saldanha.jpg");
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+@media (min-width: 650px)  {
+  .view{
+    background: url("./img/robLambert.jpg") center/cover no-repeat;
+    height: 60vh !important;
+  }
+}
+
+@media (min-width: 1200px)  {
+  .view{
+    height: 70vh !important;
+  }
+}
+
+
+
+#home-heading {
+  position: relative;
+  min-height: 400px;
+  background: url("./img/syd-mills.jpg") center/cover no-repeat;
+  /* Photo by Syd Mills on Unsplash */
+  background-attachment: fixed;
+  text-align: center;
+  color: #fff;
+}
+/* #share-section .fas {
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+} */
+
+.view-text{
+font-size: 1.5rem;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  /* background-color: #333; */
+  margin-left: 40px;
+}
+
+.contact-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* background-color: aqua;
+  border: solid 1px #000; */
+}
+
+@media (min-width: 650px) {
+  .contact {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 0;
+  }
+}
+
+.dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+
+.about-img {
+  margin-top: -50px;
+}
+
+#faq .card {
+  border: #444;
+}
+
+#faq a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#faq .card-body,
+#faq .card-header {
+  background: #333;
+}
+
+footer {
+  background: #000;
 }

@@ -9,9 +9,12 @@ body {
   max-width: 1600px;
 }
 
-.header_text{
-  font-size: 1rem;
+.header_main {
+  font-family: 'Silkscreen', cursive;
+  background-color: #000;
 }
+
+
 
 @media (min-width: 650px)  {
   .header_text{
@@ -22,10 +25,12 @@ body {
 
   .view {
     margin-top: 56px;
-    height: 40vh !important;
+    height: 50vh !important;
     background: url("./img/Filipa\ Saldanha.jpg") center/cover no-repeat;
     /* Photo by Filipa Saldanha on Unsplash */
   }
+
+  
 
 #intro {
   position: relative;
@@ -37,11 +42,20 @@ body {
   text-align: center;
   color: #fff;
 }
-
+@media (min-width: 400px)  {
+  .view{
+    height: 70vh !important;
+  }
+}
+@media (min-width: 550px)  {
+  .view{
+    height: 80vh !important;
+  }
+}
 @media (min-width: 650px)  {
   .view{
     background: url("./img/robLambert.jpg") center/cover no-repeat;
-    height: 60vh !important;
+    /* height: 80vh !important; */
   }
 }
 

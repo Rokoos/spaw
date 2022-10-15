@@ -7,10 +7,12 @@ import WhyUs from './components/WhyUs'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
+import Navbar from './components/Navbar'
+
 const App = () => {
   return (
     <Fragment>
-    <Header/>
+      <Header/>
       <View/>
       <About/>
       <WhyUs/>

@@ -12,7 +12,7 @@ import Navbar from './components/Navbar'
 const App = () => {
   return (
     <Fragment>
-      <Header/>
+    <Header/>
       <View/>
       <About/>
       <WhyUs/>

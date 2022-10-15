@@ -6,18 +6,18 @@ const Contact = () => {
     <h3 className='text-center'>Kontakt</h3>
       <div className="contact">
         <div className="contact-box">
-        <div className="d-flex align-items-center py-3">
+        <div className=" d-flex align-items-center py-3">
             <i className="fas fa-user fa-2x bg-transparent text-warning" ></i>
           
           <div className="p-4 align-self-end">
             
-          Usługi Ślusarsko-Spawalnicze
+          Manufaktura Stali
           </div>
         </div>
     
 
-          <div className="d-flex align-items-center py-3">
-            <i className="fas fa-home fa-2x bg-transparent text-warning" ></i>
+          <div className=" d-flex align-items-center py-3">
+            <i className="fas fa-map-marker-alt fa-2x bg-transparent text-warning" ></i>
         
             <div className="p-4 align-self-end">
               
@@ -36,7 +36,7 @@ const Contact = () => {
         </div>
         </div>
 
-      <div className="d-flex  align-items-center py-3 ">
+      <div className=" d-flex  align-items-center py-3 ">
         <i className=" bg-transparent fas fa-phone fa-2x text-warning"></i>
         <div className="p-4 ">
         +48 000 000 000

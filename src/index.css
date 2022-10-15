@@ -1,17 +1,19 @@
 /* Photo by <a href="https://unsplash.com/@roblambertjr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rob Lambert</a> on <a href="https://unsplash.com/s/photos/welding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
   
 
-body {
-  overflow-x: hidden;
-}
+
 
 .container {
   max-width: 1600px;
 }
 
  .header_main {
-  font-family: 'Silkscreen', cursive;
   background-color: #000;
+  font-family: 'Silkscreen', cursive;
+}
+
+ .header_title{ 
+  font-size: 1.2rem;
  }
 
 
@@ -62,6 +64,9 @@ body {
     background: url("./img/robLambert.jpg") center/cover no-repeat;
     /* height: 80vh !important; */
   }
+  .header_title{ 
+    font-size: 1.5rem;
+   }
 }
 
 @media (min-width: 1200px)  {

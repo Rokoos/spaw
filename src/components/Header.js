@@ -4,7 +4,7 @@ const Header = () => {
   return (
     
     <div className="container p-3 text-warning text-center header_main  " >
-      <span>Manufaktura spawania</span>
+      <span className='header_title'>Manufaktura Stali</span>
       </div>
   
   )

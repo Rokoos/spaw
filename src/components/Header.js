@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
   return (
     
-    <div className="fixed-top container text-warning text-center p-3 header_main">
+    <div className="container sticky-top text-warning text-center p-3 header_main">
       <span>Manufaktura spawania</span>
     </div>
   

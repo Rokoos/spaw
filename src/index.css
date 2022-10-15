@@ -9,10 +9,15 @@ body {
   max-width: 1600px;
 }
 
-.header_main {
+ .header_main {
   font-family: 'Silkscreen', cursive;
   background-color: #000;
-}
+ }
+
+
+
+
+
 
 
 
@@ -24,7 +29,7 @@ body {
 
 
   .view {
-    margin-top: 56px;
+    /* margin-top: 56px; */
     height: 50vh !important;
     background: url("./img/Filipa\ Saldanha.jpg") center/cover no-repeat;
     /* Photo by Filipa Saldanha on Unsplash */

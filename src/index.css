@@ -10,11 +10,8 @@ body {
 }
 
 .header_main {
-  position: fixed;
   font-family: 'Silkscreen', cursive;
   background-color: #000;
-  left: 0;
-  top: 0;
 }
 
 

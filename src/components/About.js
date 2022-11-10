@@ -9,14 +9,14 @@ const About = () => {
         <div className="col-md-6">
           <img src={photo} alt="" className="img-fluid mb-3 " />
         </div>
-        <div className="col-md-6 text-center">
-          <p className="about_margin">
+        <div className="col-md-6 text-center d-flex flex-column justify-content-evenly">
+          <p>
             Jesteśmy firmą zajmującą sie wykonywaniem prac spawalniczych oraz
             obróbką pospawanych elementów. Wiercimy, tniemy, nitujemy,
             szlifujemy i oczywiście spawamy TIGiem, MAGiem oraz MIGiem ( migiem
             również staramy się zamknąć zlecenia).
           </p>
-          <div className="d-flex about_text">
+          <div className="d-flex ">
             <div className="p-4 align-self-center">
               <i className="fas fa-check fa-2x text-warning"></i>
             </div>
@@ -24,7 +24,7 @@ const About = () => {
               Spawamy stal czarną oraz nierdzewną: profile, blachy itd.
             </div>
           </div>
-          <div className="d-flex">
+          <div className="d-flex ">
             <div className="p-4 align-self-center">
               <i className="fas fa-check fa-2x text-warning"></i>
             </div>

@@ -14,18 +14,6 @@
   /* Photo by Filipa Saldanha on Unsplash */
 }
 
-/* ////////////////////////AboutUs///////////////// */
-@media (min-width: 992px) {
-  .about_margin {
-    margin-bottom: 5rem !important;
-  }
-}
-@media (min-width: 1200px) {
-  .about_text {
-    margin-bottom: 5rem !important;
-  }
-}
-
 @media (min-width: 400px) {
   .view {
     height: 70vh !important;
@@ -63,8 +51,6 @@
   color: #fff;
 }
 
-/* ///////////////////Contact///////////////// */
-
 .contact-box {
   display: flex;
   flex-direction: column;
@@ -84,8 +70,6 @@
 .about-img {
   margin-top: -50px;
 }
-
-/* ////////////////footer//////////////// */
 
 footer {
   background: #000;

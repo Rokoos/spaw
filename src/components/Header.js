@@ -1,13 +1,12 @@
-import React from 'react'
+import React from "react";
 
-const Header = () => {
-  return (
-    
-    <div className="container p-3 text-warning text-center header_main  " >
-      <span className='header_title'>Manufaktura Stali</span>
-      </div>
-  
-  )
-}
+const Header = () => (
+  <nav
+    className="container navbar fixed-top mx-auto d-flex justify-content-center"
+    style={{ backgroundColor: "#000" }}
+  >
+    <span className=" text-warning header_title">Manufaktura projekt</span>
+  </nav>
+);
 
-export default Header
+export default Header;

@@ -1,81 +1,63 @@
 /* Photo by <a href="https://unsplash.com/@roblambertjr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rob Lambert</a> on <a href="https://unsplash.com/s/photos/welding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-  
-
-
 
 .container {
   max-width: 1600px;
 }
 
- .header_main {
-  background-color: #000;
-  font-family: 'Silkscreen', cursive;
+.header_title {
+  font-size: 1.2rem;
+  font-family: "Silkscreen", cursive;
 }
 
- .header_title{ 
-  font-size: 1.2rem;
- }
-
-
-
-
-
-
-
-
-@media (min-width: 650px)  {
-  .header_text{
+/* @media (min-width: 650px) {
+  .header_text {
     font-size: 1.4rem;
   }
+} */
+
+.view {
+  margin-top: 48px;
+  height: 50vh !important;
+  background: url("./img/Filipa\ Saldanha.jpg") center/cover no-repeat;
+  /* Photo by Filipa Saldanha on Unsplash */
 }
-
-
-  .view {
-    /* margin-top: 56px; */
-    height: 50vh !important;
-    background: url("./img/Filipa\ Saldanha.jpg") center/cover no-repeat;
-    /* Photo by Filipa Saldanha on Unsplash */
-  }
-
-  
 
 #intro {
   position: relative;
   min-height: 400px;
   background: url("./img/Filipa\ Saldanha.jpg");
-  
+
   background-attachment: fixed;
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
 }
-@media (min-width: 400px)  {
-  .view{
+@media (min-width: 400px) {
+  .view {
     height: 70vh !important;
   }
 }
-@media (min-width: 550px)  {
-  .view{
+@media (min-width: 550px) {
+  .view {
     height: 80vh !important;
   }
 }
-@media (min-width: 650px)  {
-  .view{
+@media (min-width: 650px) {
+  .view {
+    margin-top: 55px;
     background: url("./img/robLambert.jpg") center/cover no-repeat;
     /* height: 80vh !important; */
   }
-  .header_title{ 
+  .header_title {
     font-size: 1.5rem;
-   }
-}
-
-@media (min-width: 1200px)  {
-  .view{
-    height: 70vh !important;
   }
 }
 
-
+@media (min-width: 1200px) {
+  .view {
+    height: 70vh !important;
+  }
+}
 
 #home-heading {
   position: relative;
@@ -93,10 +75,9 @@
   border-radius: 5px;
 } */
 
-.view-text{
-font-size: 1.5rem;
+.view-text {
+  font-size: 1.5rem;
 }
-
 
 .contact {
   display: flex;
@@ -105,7 +86,7 @@ font-size: 1.5rem;
   margin-left: 40px;
 }
 
-.contact-box{
+.contact-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,10 +111,6 @@ font-size: 1.5rem;
   height: 100%;
   background: rgba(0, 0, 0, 0.7);
 }
-
-
-
-
 
 .about-img {
   margin-top: -50px;

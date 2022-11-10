@@ -1,30 +1,27 @@
 import React from "react";
-
-import laptop from "../img/RVS frame.jpg";
-
-// Photo by Jimmy Nilsson Masth on Unsplash
+import photo from "../img/RVS frame.jpg";
 
 const About = () => {
   return (
-    <div id="share-section" className=" container bg-light text-muted py-5">
+    <div className=" container bg-light text-muted py-5">
       <div className="row">
         <h3 className="text-center mb-4 text-dark">O Nas</h3>
         <div className="col-md-6">
-          <img src={laptop} alt="" className="img-fluid mb-3 rounded-circle" />
+          <img src={photo} alt="" className="img-fluid mb-3 " />
         </div>
         <div className="col-md-6 text-center">
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis
-            sapiente quidem doloribus explicabo corrupti eos illo eaque repellat
-            odit earum.
+          <p className="about_margin">
+            Jesteśmy firmą zajmującą sie wykonywaniem prac spawalniczych oraz
+            obróbką pospawanych elementów. Wiercimy, tniemy, nitujemy,
+            szlifujemy i oczywiście spawamy TIGiem, MAGiem oraz MIGiem ( migiem
+            również staramy się zamknąć zlecenia).
           </p>
-          <div className="d-flex">
+          <div className="d-flex about_text">
             <div className="p-4 align-self-center">
               <i className="fas fa-check fa-2x text-warning"></i>
             </div>
-            <div className="p-4 align-self-end">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-              numquam corrupti esse alias natus pariatur?
+            <div className="p-4 align-self-end ">
+              Spawamy stal czarną oraz nierdzewną: profile, blachy itd.
             </div>
           </div>
           <div className="d-flex">
@@ -32,8 +29,7 @@ const About = () => {
               <i className="fas fa-check fa-2x text-warning"></i>
             </div>
             <div className="p-4 align-self-end">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-              numquam corrupti esse alias natus pariatur?
+              Spawamy również konstrukcje z profili aluminiowych.
             </div>
           </div>
         </div>

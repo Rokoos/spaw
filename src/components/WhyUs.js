@@ -1,17 +1,21 @@
-import React from 'react'
+import React from "react";
 
 const WhyUs = () => {
   return (
-    <section id="home-heading" className="container py-5">
-    <div className="dark-overlay d-flex flex-row align-items-center justify-content-center">
-      
-          <div >
-            <h3>Dlaczego warto skorzystać z naszych usług?</h3>
-            <p className='mt-2 mb-2' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nobis ad labore nemo ducimus itaque quaerat ullam nostrum dolor quidem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nobis ad labore nemo ducimus itaque quaerat ullam nostrum </p>
-          </div>
-    </div>
-  </section>
-  )
-}
+    <section className="container py-5 home-heading">
+      <div className="dark-overlay d-flex flex-row align-items-center justify-content-center">
+        <div>
+          <h3>Dlaczego warto skorzystać z naszych usług?</h3>
+          <p className="mt-2 mb-2 p-3">
+            Zlecenia realizujemy terminowo, dokładamy wszelkich starań by
+            spełnić oczekiwania klienta. Nasi pracownicy posiadają bogate
+            doświadczenie co korzystnie licuje na jakość, solildność oraz przede
+            wszystkim terminowość wykonywanej usługi.{" "}
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};
 
-export default WhyUs
+export default WhyUs;

@@ -1,5 +1,3 @@
-/* Photo by <a href="https://unsplash.com/@roblambertjr?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rob Lambert</a> on <a href="https://unsplash.com/s/photos/welding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
-
 .container {
   max-width: 1600px;
 }
@@ -9,20 +7,25 @@
   font-family: "Silkscreen", cursive;
 }
 
-/* @media (min-width: 650px) {
-  .header_text {
-    font-size: 1.4rem;
-  }
-} */
-
 .view {
-  margin-top: 48px;
+  margin-top: 47px;
   height: 50vh !important;
   background: url("./img/Filipa\ Saldanha.jpg") center/cover no-repeat;
   /* Photo by Filipa Saldanha on Unsplash */
 }
 
-#intro {
+/* ////////////////////////AboutUs///////////////// */
+@media (min-width: 992px) {
+  .about_margin {
+    margin-bottom: 5rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  .about_text {
+    margin-bottom: 5rem !important;
+  }
+}
+/* #intro {
   position: relative;
   min-height: 400px;
   background: url("./img/Filipa\ Saldanha.jpg");
@@ -31,7 +34,7 @@
   background-repeat: no-repeat;
   text-align: center;
   color: #fff;
-}
+} */
 @media (min-width: 400px) {
   .view {
     height: 70vh !important;
@@ -44,9 +47,9 @@
 }
 @media (min-width: 650px) {
   .view {
-    margin-top: 55px;
+    margin-top: 54px;
     background: url("./img/robLambert.jpg") center/cover no-repeat;
-    /* height: 80vh !important; */
+    /* Photo by Rob Lambert on Unsplash */
   }
   .header_title {
     font-size: 1.5rem;
@@ -59,7 +62,7 @@
   }
 }
 
-#home-heading {
+.home-heading {
   position: relative;
   min-height: 400px;
   background: url("./img/syd-mills.jpg") center/cover no-repeat;
@@ -68,39 +71,18 @@
   text-align: center;
   color: #fff;
 }
-/* #share-section .fas {
-  background: #333;
-  color: #fff;
-  padding: 5px;
-  border-radius: 5px;
+
+/* .view-text {
+  font-size: 1.5rem;
 } */
 
-.view-text {
-  font-size: 1.5rem;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  /* background-color: #333; */
-  margin-left: 40px;
-}
+/* ///////////////////Contact///////////////// */
 
 .contact-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  /* background-color: aqua;
-  border: solid 1px #000; */
-}
-
-@media (min-width: 650px) {
-  .contact {
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 0;
-  }
+  align-items: center;
 }
 
 .dark-overlay {
@@ -115,7 +97,7 @@
 .about-img {
   margin-top: -50px;
 }
-
+/* 
 #faq .card {
   border: #444;
 }
@@ -128,7 +110,7 @@
 #faq .card-body,
 #faq .card-header {
   background: #333;
-}
+} */
 
 footer {
   background: #000;

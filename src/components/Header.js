@@ -5,7 +5,7 @@ const Header = () => (
     className="container navbar fixed-top mx-auto d-flex justify-content-center p-3"
     style={{ backgroundColor: "#000" }}
   >
-    <span className=" text-warning header_title">Manufaktura stali</span>
+    <span className=" text-warning header_title">POGOTOWIE SPAWALNICZE</span>
   </nav>
 );
 

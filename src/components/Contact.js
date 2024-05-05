@@ -7,12 +7,12 @@ const Contact = () => {
       <div className="contact-box">
         <div className="d-flex align-items-center justify-content-center  py-3">
           <i className=" bg-transparent fas fa-envelope fa-2x text-warning"></i>
-          <div className="p-4 align-self-end">przydatek.p@wp.pl</div>
+          <div className="p-4 align-self-end">m.widomski@tlen.pl</div>
         </div>
 
         <div className=" d-flex  align-items-center py-3 ">
           <i className=" bg-transparent fas fa-phone fa-2x text-warning"></i>
-          <div className="p-4 ">+48 500 543 101</div>
+          <div className="p-4 ">+48 797 992 207</div>
         </div>
       </div>
     </div>

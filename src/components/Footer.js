@@ -6,8 +6,8 @@ const Footer = () => {
       <div className="row">
         <div className="col">
           <p>
-            Copyright &copy; <span>{new Date().getFullYear()} </span>Manufaktura
-            stali
+            Copyright &copy; <span>{new Date().getFullYear()} </span>Pogotowie
+            Spawalnicze
           </p>
         </div>
       </div>
